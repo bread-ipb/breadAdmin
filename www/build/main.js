@@ -164,12 +164,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var TabsPage = (function () {
     function TabsPage() {
-        this.tab1Root = __WEBPACK_IMPORTED_MODULE_1__pesanan_pesanan__["a" /* PesananPage */];
-        this.tab2Root = __WEBPACK_IMPORTED_MODULE_2__produk_produk__["a" /* ProdukPage */];
-        this.tab3Root = __WEBPACK_IMPORTED_MODULE_3__profil_profil__["a" /* ProfilPage */];
+        this.tabOne = __WEBPACK_IMPORTED_MODULE_1__pesanan_pesanan__["a" /* PesananPage */];
+        this.tabTwo = __WEBPACK_IMPORTED_MODULE_2__produk_produk__["a" /* ProdukPage */];
+        this.tabThree = __WEBPACK_IMPORTED_MODULE_3__profil_profil__["a" /* ProfilPage */];
     }
     TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"F:\IONIC\breadAdmin\src\pages\tabs\tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Pesanan" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Produk" tabIcon="information-circle"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Profil" tabIcon="contacts"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"F:\IONIC\breadAdmin\src\pages\tabs\tabs.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"F:\IONIC\breadAdmin\src\pages\tabs\tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabIcon="information-circle"></ion-tab>\n  <ion-tab [root]="tab3Root" tabIcon="contacts"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"F:\IONIC\breadAdmin\src\pages\tabs\tabs.html"*/,
+            template: "\n  <ion-tabs>\n    <ion-tab tabIcon=\"call\" [root]=\"tabOne\" tabBadge=\"3\" tabBadgeStyle=\"danger\"></ion-tab>\n    <ion-tab tabIcon=\"chatbubbles\" [root]=\"tabTwo\"></ion-tab>\n    <ion-tab tabIcon=\"musical-notes\" [root]=\"tabThree\"></ion-tab>\n  </ion-tabs>\n  "
         }),
         __metadata("design:paramtypes", [])
     ], TabsPage);
