@@ -7,6 +7,7 @@ import { PesananPage } from '../pages/pesanan/pesanan';
 import { ProdukPage } from '../pages/produk/produk';
 import { ProfilPage } from '../pages/profil/profil';
 import { TabsPage } from '../pages/tabs/tabs';
+import { DetailpesananPage } from '../pages/detailpesanan/detailpesanan';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -17,7 +18,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PesananPage,
     ProdukPage,
     ProfilPage,
-    TabsPage
+    TabsPage,
+    DetailpesananPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +31,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PesananPage,
     ProdukPage,
     ProfilPage,
-    TabsPage
+    TabsPage,
+    DetailpesananPage
   ],
   providers: [
     StatusBar,

@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+import { DetailpesananPage } from '../detailpesanan/detailpesanan';
+
 /**
  * Generated class for the PesananPage page.
  *
@@ -20,6 +22,10 @@ export class PesananPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad PesananPage');
+  }
+
+  DetailPesanan(){
+    this.navCtrl.push(DetailpesananPage)
   }
 
 }
